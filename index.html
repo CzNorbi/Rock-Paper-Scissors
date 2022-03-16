@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rock Paper Scissors Game</title>
+    <script src="https://kit.fontawesome.com/7ffca87a2b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <h1>Rock Paper Scissors Game</h1>
+    </header>
+    <div class="container">
+        <div class="score-container">
+            <span class="user">YOU</span>
+            <span id="score"></span>
+            <span class="ai">AI</span>
+        </div>
+        <div class="buttons">
+            <button id="rock" class="bn" onclick="game(this.value)" value="rock"><i class="fa-regular fa-hand-back-fist fa-beat"></i></button>
+            <button id="paper" class="bn" onclick="game(this.value)" value="paper"><i class="fa-regular fa-hand fa-beat"></i></button>
+            <button id="scissors" class="bn" onclick="game(this.value)" value="scissors"><i class="fa-regular fa-hand-scissors fa-beat"></i></button>
+        </div>
+        <div id="challenge">
+            <div id="you">
+                <div id="YourObject"></div>
+                <div class="who">You</div>
+            </div>
+            <div id="result">
+                <p id="who">
+                    <p>
+            </div>
+            <div id="ai">
+                <div id="AiObject"></div>
+                <div class="who">AI</div>
+            </div>
+        </div>
+        <div class="rbutton">
+            <button id="restart" class="rbn" onclick="restart()"><i class="fa-solid fa-sync fa-spin"></i></button>
+        </div>
+        <div class="github">
+            <a href="https://github.com/CzNorbi/Rock-Paper-Scrissors" target="_blank"><i class="fa-brands fa-github fa-3x" style="color:white"></i></a>
+        </div>
+        <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
