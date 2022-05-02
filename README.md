@@ -1,3 +1,3 @@
-# Rock-Paper-Scrissors
+# Rock-Paper-Scissors
 
 http://shrek.unideb.hu/~cznorbi/
